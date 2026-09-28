@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 강원크루 브랜드 색상: 메인 블루 #2563EB, 네이비 #1F3864, 흰 배경 */
+@theme {
+  --color-brand: #2563eb;
+  --color-brand-dark: #1d4ed8;
+  --color-navy: #1f3864;
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: #1f2937;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  word-break: keep-all;
+}
